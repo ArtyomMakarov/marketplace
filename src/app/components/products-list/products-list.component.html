@@ -1,0 +1,14 @@
+<section class="products">
+  <div class="label-block">
+    <div class="rectangle"></div>
+    <span>Our products</span>
+  </div>
+
+  <h1>Explore Our Products</h1>
+
+  <div class="list">
+    @for(product of products(); track product.id) {
+    <app-product [product]="product"></app-product>
+    }
+  </div>
+</section>

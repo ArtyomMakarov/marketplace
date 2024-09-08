@@ -1,0 +1,25 @@
+.products {
+  padding: 3.75rem 8.4375rem;
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+}
+
+.label-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #db4444;
+  font-weight: 600;
+
+  .rectangle {
+    width: 1.25rem;
+    height: 2.5rem;
+    background-color: #db4444;
+    border-radius: 4px;
+  }
+}

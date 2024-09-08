@@ -1,0 +1,27 @@
+<div class="wrapper">
+  <div class="image-block">
+    <img [src]="product().image" alt="pet food" />
+
+    @if(product().isNew) {
+    <div class="label">NEW</div>
+    }
+
+    <button class="cart-button">Add to Cart</button>
+
+    <div class="actions">
+      <button class="icon">
+        <img src="assets/icons/like.svg" alt="like" />
+      </button>
+
+      <button class="icon">
+        <img src="assets/icons/eye.svg" alt="eye" />
+      </button>
+    </div>
+  </div>
+
+  <p class="name">{{ product().name }}</p>
+
+  <div class="detailes">
+    <span class="price">${{ product().price }}</span>
+  </div>
+</div>

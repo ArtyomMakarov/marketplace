@@ -1,3 +1,4 @@
 <app-top-header />
-<app-header />
+<app-header (query)="query.set($event)" />
+<app-products-list [products]="filteredProducts()" />
 <app-footer />

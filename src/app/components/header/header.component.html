@@ -13,7 +13,11 @@
 
     <div class="actions">
       <div class="search">
-        <input type="text" placeholder="What are you looking for?" />
+        <input
+          type="text"
+          placeholder="What are you looking for?"
+          [formControl]="control"
+        />
         <img src="assets/icons/search.svg" alt="search" />
       </div>
 
