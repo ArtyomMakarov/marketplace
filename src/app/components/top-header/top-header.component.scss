@@ -4,6 +4,7 @@
   min-height: 3rem;
   display: flex;
   justify-content: space-between;
+  gap: 0.625rem;
   font-size: 0.875rem;
   padding: 0 8.4375rem;
 }
@@ -29,4 +30,16 @@
   border: unset;
   background-color: transparent;
   color: #fafafa;
+}
+
+@media (max-width: 480px) {
+  .top-header {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .top-header {
+    padding: 0 1rem;
+  }
 }
