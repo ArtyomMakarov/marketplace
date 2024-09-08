@@ -1,0 +1,32 @@
+.top-header {
+  background-color: black;
+  color: #fafafa;
+  min-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  padding: 0 8.4375rem;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.625rem;
+
+  a {
+    color: #fafafa;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+.languages {
+  border: unset;
+  background-color: transparent;
+  color: #fafafa;
+}
