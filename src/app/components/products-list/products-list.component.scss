@@ -1,5 +1,5 @@
 .products {
-  padding: 3.75rem 8.4375rem;
+  padding: 3.75rem 6.4375rem;
 
   .list {
     display: flex;
@@ -40,7 +40,7 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
   .products {
-    padding: 3.75rem 8.4375rem;
+    padding: 3.75rem 6.4375rem;
 
     .list {
       justify-content: space-around;
@@ -54,7 +54,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .products {
-    padding: 3.75rem 8.4375rem;
+    padding: 3.75rem 6.4375rem;
 
     .list {
       justify-content: space-around;
