@@ -1,6 +1,8 @@
 # Marketplace
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+
+## Deployed
+Application can be accessed by this link https://marketplace-w91n.vercel.app/
 
 ## Development server
 
