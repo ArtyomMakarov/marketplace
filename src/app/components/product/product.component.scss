@@ -72,6 +72,41 @@
   margin: 0.625rem 0;
 }
 
-.price {
-  color: #db4444;
+.details {
+  .price {
+    color: #db4444;
+    margin-right: 0.625rem;
+    font-weight: 600;
+  }
+
+  .reviews {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: gray;
+  }
+}
+
+.rating {
+  position: relative;
+  appearance: none;
+  color: transparent;
+  width: 6.25rem;
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 25px;
+
+  &::before {
+    content: "★★★★★";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(
+      90deg,
+      gold var(--percent),
+      rgba(0, 0, 0, 0.2) var(--percent)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }

@@ -14,7 +14,7 @@ export class HeaderComponent {
   public get query(): Observable<string> {
     return this.control.valueChanges.pipe(
       debounceTime(500),
-      map((query: string) => query?.trim())
+      map((query: string) => query?.trim().toLowerCase())
     );
   }
 

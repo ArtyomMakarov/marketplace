@@ -21,7 +21,18 @@
 
   <p class="name">{{ product().name }}</p>
 
-  <div class="detailes">
+  <div class="details">
     <span class="price">${{ product().price }}</span>
+
+    <meter
+      #rating
+      class="rating"
+      min="0"
+      max="5"
+      [value]="product().rating"
+      title="5 stars"
+    ></meter>
+
+    <span class="reviews">({{ product().reviews }})</span>
   </div>
 </div>
